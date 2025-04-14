@@ -12,6 +12,7 @@ Antes de nada hay que instalar las dependencias que se encuentran en el archivo 
 
 ```
 pip install -r requirements.txt
+pip install streamlit
 ```
 
 ## Entrenamiento del modelo
@@ -28,4 +29,11 @@ Al ejecutar el archivo `test_model.py` se probará el modelo con el dataset de t
 
 ```
 python3 test_model.py
+```
+## Iniciar interfaz gráfica
+
+Para iniciar la interfaz es necesario poner en la terminal
+
+```
+streamlit run app.py
 ```
