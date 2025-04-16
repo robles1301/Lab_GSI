@@ -12,7 +12,6 @@ Antes de nada hay que instalar las dependencias que se encuentran en el archivo 
 
 ```
 pip install -r requirements.txt
-pip install streamlit
 ```
 
 ## Entrenamiento del modelo
