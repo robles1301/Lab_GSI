@@ -10,3 +10,6 @@
 
 # Ignorar los csv de test
 *.csv
+
+# Ignorar los checkpoints de los cuadernos Jupyter
+*.ipynb_checkpoints

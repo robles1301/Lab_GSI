@@ -5,3 +5,5 @@ numpy
 opencv-python
 pandas
 streamlit
+jupyter==1.0.0
+ipykernel==6.29.0
