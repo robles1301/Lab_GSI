@@ -14,12 +14,12 @@ El objetivo de este proyecto es desarrollar un modelo de clasificación de imág
 >
 > ⚠️ Recomendamos encarecidamente ejecutar el proyecto en Linux
 
-Para trabajar en un entorno aislado, lo mejor es crear un entorno virtual ejecutando los siguientes comandos:
+Para trabajar en un entorno aislado, lo mejor (aunque opcional) es crear un entorno virtual ejecutando los siguientes comandos:
 
 ```
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
-.\venv\Scripts\activate  # Windows
+.\venv\Scripts\activate  # Windows (depende la version de python, podria ser: .\venv\bin\activate
 ```
 
 Seguidamente debemos instalar las dependencias necesarias presentes en el archivo `requirements.txt:`
@@ -37,6 +37,8 @@ El archivo `neumoniaNotebook.ipynb` es un cuaderno Jupyter organizado en seccion
    ```
    jupyter lab
    ```
+
+   En principio debería abrirse automaticamente en el navegador, pero si no es así, continuar con los pasos.
 2. Para acceder al servidor, ejecuta este comando en otra terminal:
 
    ```
