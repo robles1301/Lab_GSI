@@ -44,13 +44,13 @@ El archivo `neumoniaNotebook.ipynb` es un cuaderno Jupyter organizado en seccion
    ```
 3. Deberías ver una url localhost, ese es tu servidor. Haz `ctrl + click` y se te abrirá el cuaderno en el navegador, donde podrás ejecutarlo por secciones o todo de golpe.
 
-Si no quieres ejecutar el cuaderno, puedes ejecutar `train_and_test_model.py`, que es esencialmente el cuaderno pero sin tanto detalle. Para ello ejecuta el comando:
+Si no quieres ejecutar el cuaderno, puedes ejecutar `train_and_test_model.py`, que es esencialmente el cuaderno pero sin tanto detalle en los outputs. Para ello ejecuta el comando:
 
 ```
 python3 train_and_test_model.py
 ```
 
-Una vez ejecutado el cuaderno o el archivo python, se habra creado un modelo `modelo_neumonia.h5`. Este es el modelo ya entrenado y listo para pasarle imágenes.
+Una vez ejecutado el cuaderno o el archivo python, se habra creado un modelo `modelo_neumonia.h5` si no se había creado previamente. Este es el modelo ya entrenado y listo para pasarle imágenes.
 
 ## Iniciar interfaz gráfica
 
